@@ -1,0 +1,19 @@
+MongoDb
+Faz um Cluster, depois um database Access, com usuario e senha
+vee123, minhadatabase
+Ir em connectar your application, para pegar o link de connectar o banco
+
+npm init
+npm i express mongoose connect-mongo express-session express-handlebars dotenv method-override moment morgan passport passport-google-oauth20
+
+npm i -D nodemon cross-env
+
+No package,json=
+"start": "cross-env NODE_ENV=production node app",
+"dev": "cross-env NODE_ENV=development nodemon app"
+    
+Google cloud console
+Api e servicos, ativar api
+Depois ir em Credenciais. link de servicos, e  ir em ID client OAuth
+URIs de redirecionamento autorizados
+
